@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: silver;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+.tracy{
+    text-align: center;
+    color: crimson;
+    text-shadow: 2px 2px 2px black;
+    font-style: oblique;
+    background-color: teal;
+    font-size: 2rem;
+}
+.image img{
+    float: right;
+    border-radius: 10px;
+    height: 500px;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.about-me{
+    background-color: white;
+    height: 1350px;
+    margin-bottom: 2%;
+    width: 60%;
+    padding: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#education{
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+#education h2{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 2.5rem;
+}
+#education ul{
+    list-style: disc;
+    font-size: 2rem;
+    margin-left: 35%;
+    line-height: 1.5;
+}
+#education .topic{
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.interest{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2;
+    width: 70%;
+    margin-left: 20%;
+}
+.hobbies{
+    margin-top: 1%;
+}
+.hobbies h2{
+    text-align: center;
+    font-size: 2.5rem;
+    
+}
+.hobbies p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.hobbies ol{
+    line-height: 1.5;
+    font-size: 2rem;
+    margin-left: 35%;
+}
+.projects{
+    font-size: 2rem;
+    margin-top:2%;
+    line-height: 2;
+}
+.projects h2, h3{
+    text-align: center;
+}
+.projects a{
+    margin-left: 35%;
+}
